@@ -1,9 +1,9 @@
 
 var major = [174, 116, 99, 79, 69]
-//var img;
+var img;
 
 function preload(){
-//img = loadImage("tiger.png")
+img = loadImage("tiger.png")
 
 }
 
@@ -12,13 +12,13 @@ function preload(){
 
 function setup(){
 createCanvas(800,800);
-//tint(255, 127); 
+
  
 }
 
 function draw(){
-    
-//image(img,0,0) 
+    tint(255, 127); 
+image(img,0,0) 
 
    background(0)
 
